@@ -1,14 +1,14 @@
 {
-	"name": "RAKwireless <CHIP or RAK#> library",
+	"name": "RAKwireless RAK13600 RFID library",
 	"version": "1.0.0",
 	"keywords": [
-		"LIN bus",
-		"TLE7259",
+		"RFID",
+		"PN532",
 		"RAKWireless",
 		"WisBlock",
-		"RAK13005"
+		"RAK13600"
 	],
-	"description": "RAKWireless library for the <RAK#> <Function> module with the <CHIP>",
+	"description": "RAKWireless library for the RAK13600 RFID module with the PN532",
 	"frameworks": [
 		"arduino"
 	],
@@ -26,7 +26,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RAKWireless/RAK#-CHIP-Library"
+		"url": "https://github.com/RAKWireless/RAK13600-PN532"
 	},
 	"homepage": "https://rakwireless.com"
 }
