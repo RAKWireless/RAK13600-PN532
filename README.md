@@ -1,4 +1,4 @@
-| <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=25%></center>  | ![RAKWireless](./assets/RAK-Whirls.png) | [![Build Status](https://github.com/RAKWireless/RAK13600-PN530/workflows/RAK%20Library%20Build%20CI/badge.svg)](https://github.com/RAKWireless/RAK13600-PN530/actions) |
+| <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=25%></center>  | ![RAKWireless](./assets/RAK-Whirls.png) | [![Build Status](https://github.com/RAKWireless/RAK13600-PN532/workflows/RAK%20Library%20Build%20CI/badge.svg)](https://github.com/RAKWireless/RAK13600-PN532/actions) |
 | -- | -- | -- |
 
 # RAK13600
@@ -9,7 +9,7 @@ PN532 is the NFC chip of NXP, which can read and write NFC cards. This library p
 
 # Documentation
 
-* **[Product Repository](https://github.com/RAKWireless/RAK13600-PN530)** - Product repository for the RAKWireless RAK13600 NFC module.
+* **[Product Repository](https://github.com/RAKWireless/RAK13600-PN532)** - Product repository for the RAKWireless RAK13600 NFC module.
 * **[Documentation](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK13600/Overview/)** - Documentation and Quick Start Guide for the RAK13600 NFC module.
 
 # Installation
