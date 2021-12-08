@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map For NFC_PN532
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NFC_PN532	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2    
+SAMConfig	KEYWORD2
+getFirmwareVersion	KEYWORD2
+sendCommandCheckAck	KEYWORD2
+writeGPIO		KEYWORD2
+readGPIO		KEYWORD2
+setPassiveActivationRetries	KEYWORD2
+readPassiveTargetID	KEYWORD2
+startPassiveTargetIDDetection	KEYWORD2
+readDetectedPassiveTargetID	KEYWORD2
+inDataExchange	KEYWORD2
+inListPassiveTarget	KEYWORD2
+AsTarget	KEYWORD2
+getDataTarget	KEYWORD2
+setDataTarget	KEYWORD2
+mifareclassic_IsFirstBlock	KEYWORD2
+mifareclassic_IsTrailerBlock	KEYWORD2
+mifareclassic_AuthenticateBlock	KEYWORD2
+mifareclassic_ReadDataBlock	KEYWORD2
+mifareclassic_WriteDataBlock	KEYWORD2
+mifareclassic_FormatNDEF	KEYWORD2
+mifareclassic_WriteNDEFURI	KEYWORD2
+mifareultralight_ReadPage	KEYWORD2
+mifareultralight_WritePage	KEYWORD2
+ntag2xx_ReadPage	KEYWORD2
+ntag2xx_WritePage	KEYWORD2
+ntag2xx_WriteNDEFURI	KEYWORD2	
+felica_Polling	KEYWORD2
+felica_SendCommand	KEYWORD2
+felica_RequestService	KEYWORD2
+felica_RequestResponse	KEYWORD2
+felica_ReadWithoutEncryption	KEYWORD2
+felica_WriteWithoutEncryption	KEYWORD2
+felica_RequestSystemCode	KEYWORD2
+felica_Release	KEYWORD2
+PrintHex	KEYWORD2
+PrintHexChar	KEYWORD2
+readdata	KEYWORD2
+writecommand	KEYWORD2
+isready	KEYWORD2
+waitready	KEYWORD2
+readack	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
