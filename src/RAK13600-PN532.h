@@ -1,11 +1,32 @@
+/**************************************************************************/
+/*!
+    @file     Adafruit_PN532.h
+    @author   Adafruit Industries
+        @license  BSD (see license.txt)
+        This is a library for the Adafruit PN532 NFC/RFID breakout boards
+        This library works with the Adafruit NFC breakout
+        ----> https://www.adafruit.com/products/364
+        Check out the links above for our tutorials and wiring diagrams
+  These chips use SPI or I2C to communicate.
+        Adafruit invests time and resources providing this open source code,
+        please support Adafruit and open-source hardware by purchasing
+        products from Adafruit!
+        @section  HISTORY
+  v2.0  - Refactored to add I2C support from Adafruit_NFCShield_I2C library.
+        v1.1  - Added full command list
+          - Added 'verbose' mode flag to constructor to toggle debug output
+          - Changed readPassiveTargetID() to return variable length values
+*/
+/**************************************************************************/
+
 /**
    @file NFC_PN532.h
    @author rakwireless.com
    @brief  This is a library for the PN532 NFC/RFID breakout boards
+   			Based on Adafruits library, changed to work with RAKWireless RAK13600 module
+
    @version 1.0
    @date 2021-09-18
-
-   @copyright Copyright (c) 2021
 
 */
 
