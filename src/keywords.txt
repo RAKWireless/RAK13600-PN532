@@ -53,6 +53,17 @@ writecommand	KEYWORD2
 isready	KEYWORD2
 waitready	KEYWORD2
 readack	KEYWORD2
+getSAK	KEYWORD2
+getATQA	KEYWORD2
+
 #######################################
 # Constants (LITERAL1)
 #######################################
+_SAK	LITERAL1
+_ATQA	LITERAL1
+_uidLen	LITERAL1
+_key	LITERAL1
+inListedTag	LITERAL1
+_inListedTag	LITERAL1
+_felicaIDm	LITERAL1
+_felicaPMm	LITERAL1

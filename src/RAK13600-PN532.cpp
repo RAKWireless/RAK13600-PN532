@@ -774,6 +774,10 @@ bool NFC_PN532::readPassiveTargetID(uint8_t cardbaudrate, uint8_t *uid, uint8_t 
     uint16_t sens_res = pn532_packetbuffer[9];
     sens_res <<= 8;
     sens_res |= pn532_packetbuffer[10];
+
+    // save these 2 pieces of information for later use
+    _SAK = pn532_packetbuffer[11];
+    _ATQA = sens_res;
 #ifdef MIFAREDEBUG
     PN532DEBUGPRINT.print(F("ATQA: 0x"));
     PN532DEBUGPRINT.println(sens_res, HEX);
@@ -2812,3 +2816,11 @@ int8_t NFC_PN532::felica_Release()
   }
   return 1;
 }
+uint8_t NFC_PN532::getSAK() {
+  return _SAK;
+}
+
+uint16_t NFC_PN532::getATQA() {
+  return _ATQA;
+}
+

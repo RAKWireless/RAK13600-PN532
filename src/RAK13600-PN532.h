@@ -245,10 +245,17 @@ class NFC_PN532 {
     // Help functions to display formatted text
     static void PrintHex(const byte *data, const uint32_t numBytes);
     static void PrintHexChar(const byte *pbtData, const uint32_t numBytes);
-
+    // Added by Kongduino
+    uint8_t getSAK(void);
+    uint16_t getATQA(void);
   private:
     int8_t _irq = -1, _reset = -1;
     uint8_t _uid[7];      // ISO14443A uid
+
+    // Added by Kongduino
+    uint8_t _SAK;
+    uint16_t _ATQA;
+    
     int8_t _uidLen;      // uid len
     uint8_t _key[6];      // Mifare Classic key
     int8_t _inListedTag; // Tg number of inlisted tag.
