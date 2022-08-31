@@ -821,8 +821,9 @@ bool NFC_PN532::startPassiveTargetIDDetection(uint8_t cardbaudrate)
 
   if (!sendCommandCheckAck(pn532_packetbuffer, 3))
   {
-    return 0x0; // command failed
+    return false; // command failed
   }
+  return true;
 }
 
 /**************************************************************************/
@@ -920,6 +921,7 @@ bool NFC_PN532::inDataExchange(uint8_t *send, uint8_t sendLength, uint8_t *respo
     PN532DEBUGPRINT.println(F("Preamble missing"));
     return false;
   }
+  return false;
 }
 
 /**************************************************************************/
